@@ -14,11 +14,14 @@ Geht auf https://www.rstudio.com/, wählt Products/RStudio und klickt auf der Se
 **R muss vor RStudio installiert sein, da RStudio selbst kein Kommandozeilen-Programm ist, sondern nur eine grafische Oberfläche für R bietet, welche die Benutzung des Programms erleichtert!**
 
 ## Nutzung von GitHub
-###Registrierung und Repository###
+### Registrierung und Repository ###
 Registriert euch bei GitHub. Oben rechts auf dem Plus-Zeichen kann einer aus eurer Gruppe ein Repository anlegen. Lasst in den folgenden Einstellungen das Repository auf privat. Hakt nicht „initialize...“ an und lasst auch die anderen Punkte auf „none“/„none“. Drückt auf Create Repository
 Führt in eurem Terminal (Mac) oder in eurer Eingabeaufforderung (Windows) die Code-Zeilen aus. Die Eingabeaufforderung müsst ihr als Administrator ausführen.
 
 Unter Settings --> Collaborators könnt ihr eure Gruppenmitglieder in euer Projekt-Repository einladen. Jedes Mal, wenn ihr eine Änderung an einem Dokument durchführen wollt, öffnet ihr einen neuen Branch, nennt ihn z.B. „Änderung Code Cluster“, schreibt das Dokument in eurem neuen Branch um und startet eine Pull Request, mit der ihr die Dokumente mit z.B. dem Master Branch zusammenführt.
+
+### Neue Dateien auf GitHub ###
+Wenn ihr eine neue Datei in einem Repository anlegt und den Dateinamen ohne Endung benennt, ist dies ein Code-Dokument, das auch von R/RStudio eingelesen werden kann. Wenn ihr die Datei jedoch mit „.md“ benennt, also zum Beispiel „Erklärung.md“ ist das eine Markdown-Datei, wie diese hier. Hier könnt ihr mithilfe von Markups, ähnlich wie in HTML, einfache Texte erstellen. Hier eine kleine Anleitung: https://guides.github.com/features/mastering-markdown/. Diese Dateien könnt ihr dafür nutzen, um FAQs zu erstellen, um Anleitungen festzuhalten oder Wichtiges zu notieren.
 
 ## Wie verwendet man GitHub?
 GitHub ist eine „Versionsverwaltung für Softwareprojekte“. Das bedeutet, dass man auf GitHub bequem gemeinsam an einem Projekt arbeiten kann. Je nachdem, mit wie vielen Personen ihr gemeinsam arbeitet, kann es nämlich zu Problemen führen, wenn jeder daheim an seinem eigenen Projekt herumschraubt und man dann am Ende mühsam versucht, alle einzelnen Dokumente zusammenzutragen.
