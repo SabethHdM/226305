@@ -14,7 +14,7 @@ Geht auf https://www.rstudio.com/, wählt Products/RStudio und klickt auf der Se
 **R muss vor RStudio installiert sein, da RStudio selbst kein Kommandozeilen-Programm ist, sondern nur eine grafische Oberfläche für R bietet, welche die Benutzung des Programms erleichtert!**
 
 ## Nutzung von GitHub
-###Registrierung und Repository
+###Registrierung und Repository###
 Registriert euch bei GitHub. Oben rechts auf dem Plus-Zeichen kann einer aus eurer Gruppe ein Repository anlegen. Lasst in den folgenden Einstellungen das Repository auf privat. Hakt nicht „initialize...“ an und lasst auch die anderen Punkte auf „none“/„none“. Drückt auf Create Repository
 Führt in eurem Terminal (Mac) oder in eurer Eingabeaufforderung (Windows) die Code-Zeilen aus. Die Eingabeaufforderung müsst ihr als Administrator ausführen.
 
