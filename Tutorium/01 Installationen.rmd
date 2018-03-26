@@ -12,6 +12,14 @@ Ihr könnt euer gesamtes Projekt nur mithilfe von R durchführen. Das ist jedoch
 ## Installation von RStudio
 Geht auf https://www.rstudio.com/, wählt Products/RStudio und klickt auf der Seite den Button „Download RStudio Desktop“. In der Tabelle könnt ihr unter „FREE“ auf „Download“ klicken. Die Web-Seite führt euch zu den „Installers for Supported Platforms“. Hier gibt es die Downloads für Windows und Mac OS X.
 **R muss vor RStudio installiert sein, da RStudio selbst kein Kommandozeilen-Programm ist, sondern nur eine grafische Oberfläche für R bietet, welche die Benutzung des Programms erleichtert!**
+
+## Nutzung von GitHub
+###Registrierung und Repository
+Registriert euch bei GitHub. Oben rechts auf dem Plus-Zeichen kann einer aus eurer Gruppe ein Repository anlegen. Lasst in den folgenden Einstellungen das Repository auf privat. Hakt nicht „initialize...“ an und lasst auch die anderen Punkte auf „none“/„none“. Drückt auf Create Repository
+Führt in eurem Terminal (Mac) oder in eurer Eingabeaufforderung (Windows) die Code-Zeilen aus. Die Eingabeaufforderung müsst ihr als Administrator ausführen.
+
+Unter Settings --> Collaborators könnt ihr eure Gruppenmitglieder in euer Projekt-Repository einladen. Jedes Mal, wenn ihr eine Änderung an einem Dokument durchführen wollt, öffnet ihr einen neuen Branch, nennt ihn z.B. „Änderung Code Cluster“, schreibt das Dokument in eurem neuen Branch um und startet eine Pull Request, mit der ihr die Dokumente mit z.B. dem Master Branch zusammenführt.
+
 ## Wie verwendet man GitHub?
 GitHub ist eine „Versionsverwaltung für Softwareprojekte“. Das bedeutet, dass man auf GitHub bequem gemeinsam an einem Projekt arbeiten kann. Je nachdem, mit wie vielen Personen ihr gemeinsam arbeitet, kann es nämlich zu Problemen führen, wenn jeder daheim an seinem eigenen Projekt herumschraubt und man dann am Ende mühsam versucht, alle einzelnen Dokumente zusammenzutragen.
 Auf GitHub könnt ihr später euer R Skript hochladen und gemeinsam bearbeiten. Jede Änderung der Version wird euch dabei angezeigt. Wenn euer Skript auf dem Master-Branch (also auf dem Hauptzweig) eures Projektes liegt, könnt ihr pro Gruppenmitglied einen neuen Branch öffnen. In diesem Branches ist das R Skript aus dem Master Branch als Kopie gespeichert. Wenn ihr nun das Skript um eure Code-Zeilen erweitert und fertig seid, könnt ihr eine Pull Request an den Master Branch schicken. Dann kann ganz leicht entschieden werden, welche hervorgehobenen Neuerungen und Änderungen man übernimmt.
@@ -22,5 +30,3 @@ Repository | Projekt, in dem eure Daten liegen
 Branch | Zweig. Auf jedem Zweig kann eine andere Version eurer Hauptdatei liegen, die ihr individuell bearbeiten könnt. Die Branches können am Ende wieder zusammengeführt werden.
 Commit | Eine neue Version des Branches/Dokuments wird eingereicht.
 Pull (Request) | Bitte, die Änderungen des eigenen Branches in das Hauptdokument aufzunehmen.
-
-## Kleine Aufgabe
